@@ -55,16 +55,12 @@ main
     align-items: center;
 }
 
-main h1
+main h2
 {
     margin-top: 50px;
     margin-bottom: 50px;
-}
 
-#bebidas h2
-{
-    position: absolute;
-    left: 0;
+    font-size: 2em;
 }
 
 #hamburguers
@@ -93,4 +89,41 @@ main h1
 {
     height: 200px;
     border-radius: 7px;
+}
+
+.preco, .bebida-text p
+{
+    margin-top: 80px;
+    font-weight: 900;
+    font-size: 1.3em;
+}
+
+#bebidas
+{
+    display: flex;
+
+    gap: 300px;
+    width: 100%;
+
+    justify-content: center;
+}
+
+.bebida
+{
+    display: flex;
+}
+
+.bebida-img img 
+{
+    height: 200px;
+    
+}
+
+footer
+{
+    width: 100%;
+    height: 100px;
+    background-color: rgb(247, 46, 46);
+
+    margin-top: 80px;
 }
